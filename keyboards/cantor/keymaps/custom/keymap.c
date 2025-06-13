@@ -24,9 +24,9 @@ tap_dance_action_t tap_dance_actions[] = {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [BASE] = LAYOUT_split_3x6_3(
-        KC_ESC,		DK_Q,		DK_W,	TD(DK_AE),	DK_R,	DK_T,		DK_Y,	DK_U,			DK_I,		TD(TD_OE),	DK_P,		KC_LGUI,	
+        KC_ESC,		DK_Q,		DK_W,	TD(TD_AE),	DK_R,	DK_T,		DK_Y,	DK_U,			DK_I,		TD(TD_OE),	DK_P,		KC_LGUI,	
         KC_BSPC,	TD(TD_AA),	DK_S,	DK_D,		DK_F,	DK_G,		DK_H,	DK_J,			DK_K,		DK_L,		DK_LABK,	KC_TAB,	
-        KC_LSFT,	DK_Z,		DK_X,	DK_C,		DK_V,	DK_B,		DK_N,	LT(3, DK_M),	DK_COMM,	DK_DOT,		DK_UNDS,	KC_RSFT,	
+        KC_LSFT,	DK_Z,		DK_X,	DK_C,		DK_V,	DK_B,		DK_N,	LT(3, DK_M),	DK_COMM,	DK_DOT,		DK_MINS,	KC_RSFT,	
         
          		KC_LCTL,	LT(2,KC_SPC),	LT(1,KC_LGUI),		LT(1,KC_PENT),	KC_SPC,	KC_RALT
     ),
